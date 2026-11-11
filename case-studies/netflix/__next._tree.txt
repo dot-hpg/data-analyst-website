@@ -1,0 +1,7 @@
+:HL["/data-analyst-website/_next/static/chunks/0depzv3h8qxx3.css","style"]
+:HL["/data-analyst-website/_next/static/media/07a39a8a4660cc7c-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/data-analyst-website/_next/static/media/605ce01b664af129-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:[["children",{"s":"__PAGE__","h":160}]]
+2:[["children",{"s":{"n":"slug","t":"d","k":"netflix","s":["target-brazil"]},"h":96,"c":"$Q3"}]]
+1:[["children",{"s":"case-studies","h":96,"c":"$Q2"}]]
+0:{"b":"hicdPK4Xoj2eOt1CjaC9V","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://data-analyst-website-henna.vercel.app/sitemap.xml
