@@ -4,7 +4,7 @@ A personal portfolio for Data Analyst roles, built with the same stack and look 
 [dot-hpg/portfolio](https://github.com/dot-hpg/portfolio): **Next.js 16, Tailwind CSS 4, Framer Motion and shadcn/ui**,
 dark slate with indigo-to-pink gradients.
 
-**Live site:** https://dot-hpg.github.io/data-analyst-website/ (GitHub Pages, redeployed on every push to `main`)
+**Live site:** https://data-analyst-website-henna.vercel.app/ (Vercel, redeployed on every push to `main`)
 
 ## What's inside
 
@@ -43,12 +43,12 @@ npm run dev        # http://localhost:3000
 
 ## Deploy
 
-**GitHub Pages (set up):** `.github/workflows/deploy.yml` builds a static export (`GITHUB_PAGES=true`) and pushes it to
+**Vercel (live):** connected to this repo, so every push to `main` redeploys
+https://data-analyst-website-henna.vercel.app/. If the address changes, update `url` in `lib/site.ts`.
+
+**GitHub Pages (optional mirror):** `.github/workflows/deploy.yml` builds a static export (`GITHUB_PAGES=true`) and pushes it to
 the `gh-pages` branch on every push to `main`. One-time step: repo **Settings → Pages → Source: Deploy from a branch →
 `gh-pages` / `(root)`**.
-
-**Vercel (like the original portfolio):** import the repo at [vercel.com/new](https://vercel.com/new). No settings
-needed; without `GITHUB_PAGES` it builds as a normal Next.js app at the domain root.
 
 ```bash
 GITHUB_PAGES=true npm run build   # static site in ./out, served under /data-analyst-website

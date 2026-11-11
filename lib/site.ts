@@ -41,6 +41,8 @@ const TAB = "https://github.com/dot-hpg/tableau-projects-data-analysis";
 export const site = {
   name: "Guntuku Hariprasad",
   shortName: "Hariprasad",
+  // The live address of this site, used for link previews, the sitemap and search engines.
+  url: "https://data-analyst-website-henna.vercel.app",
   role: "Data Analyst",
   // Shown in the badge above your name. Set to "" to hide it.
   availability: "Open to new roles",

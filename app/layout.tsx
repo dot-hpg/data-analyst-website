@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { site } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: "Guntuku Hariprasad | Data Analyst",
   description:
     "Portfolio of Guntuku Hariprasad, a Data Analyst who turns data into decisions with SQL, Python, Excel, Power BI, Tableau and statistics.",
@@ -21,6 +23,13 @@ export const metadata: Metadata = {
     title: "Guntuku Hariprasad | Data Analyst",
     description: "SQL, Python, statistics and dashboards that turn data into decisions.",
     type: "website",
+    url: site.url,
+    siteName: "Guntuku Hariprasad",
+  },
+  twitter: {
+    card: "summary",
+    title: "Guntuku Hariprasad | Data Analyst",
+    description: "SQL, Python, statistics and dashboards that turn data into decisions.",
   },
 };
 
